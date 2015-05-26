@@ -1,0 +1,22 @@
+___awdiv: CODE, 3692 0 93
+___aldiv: CODE, 332 0 143
+_lcdGoto: CODE, 3509 0 57
+__stringtab: STRING, 2048 0 6
+__stringdata: STRING, 2054 0 87
+_beep: CODE, 8 0 65
+_main: CODE, 475 0 1569
+_lcdNumber: CODE, 201 0 131
+__initialization: CODE, 2044 0 0
+___lwdiv: CODE, 3566 0 62
+_lcdWrite: CODE, 3322 0 26
+_lcdPutstr: CODE, 3411 0 46
+_setPwmRC1: CODE, 3882 0 107
+_setPwmRC2: CODE, 3989 0 107
+___lwmod: CODE, 3457 0 52
+_motor: CODE, 73 0 128
+_lcdInit: CODE, 3785 0 97
+_memcmp: CODE, 3628 0 64
+___wmul: CODE, 3376 0 35
+_picInit: CODE, 3348 0 28
+___bmul: CODE, 3305 0 17
+Total: 2920

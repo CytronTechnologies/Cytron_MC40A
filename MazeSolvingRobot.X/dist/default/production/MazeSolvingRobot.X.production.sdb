@@ -1,0 +1,449 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"4 D:\Program Files\Microchip\xc8\v1.31\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.31\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"33 D:\Program Files\Microchip\xc8\v1.31\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 D:\Program Files\Microchip\xc8\v1.31\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"42 D:\Program Files\Microchip\xc8\v1.31\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"37 D:\Program Files\Microchip\xc8\v1.31\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 D:\Program Files\Microchip\xc8\v1.31\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.31\sources\common\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"62 D:\Program Files\Microchip\xc8\v1.31\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files\Microchip\xc8\v1.31\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.31\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"51 D:\Program Files\Microchip\xc8\v1.31\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 D:\Program Files\Microchip\xc8\v1.31\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"18 D:\Program Files\Microchip\xc8\v1.31\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 D:\Program Files\Microchip\xc8\v1.31\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.31\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 D:\Program Files\Microchip\xc8\v1.31\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 D:\Program Files\Microchip\xc8\v1.31\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"35 D:\Program Files\Microchip\xc8\v1.31\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"9 D:\Program Files\Microchip\xc8\v1.31\sources\common\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"30 D:\Program Files\Microchip\xc8\v1.31\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 D:\Program Files\Microchip\xc8\v1.31\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"3 D:\Program Files\Microchip\xc8\v1.31\sources\common\memcmp.c
+[v _memcmp memcmp `(i  1 e 2 0 ]
+"9 D:\Program Files\Microchip\xc8\v1.31\sources\common\tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"3 D:\Program Files\Microchip\xc8\v1.31\sources\common\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"48
+[v ___eetoc __eetoc `(uc  1 e 1 0 ]
+"56
+[v ___eetoi __eetoi `(ui  1 e 2 0 ]
+"64
+[v ___eetom __eetom `(um  1 e 3 0 ]
+"72
+[v ___eetol __eetol `(ul  1 e 4 0 ]
+"80
+[v ___ctoee __ctoee `(uc  1 e 1 0 ]
+"87
+[v ___itoee __itoee `(ui  1 e 2 0 ]
+"94
+[v ___mtoee __mtoee `(um  1 e 3 0 ]
+"101
+[v ___ltoee __ltoee `(ul  1 e 4 0 ]
+"108
+[v ___eetoft __eetoft `(f  1 e 3 0 ]
+"116
+[v ___eetofl __eetofl `(d  1 e 3 0 ]
+"124
+[v ___fttoee __fttoee `(f  1 e 3 0 ]
+"131
+[v ___fltoee __fltoee `(d  1 e 3 0 ]
+"49 D:\Program Files\Microchip\xc8\v1.31\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"34 E:\Google Drive\PIC\Project\MazeSolvingRobot.X\lcd.h
+[v _lcdInit lcdInit `(v  1 e 0 0 ]
+"48
+[v _lcdWrite lcdWrite `(v  1 e 0 0 ]
+"56
+[v _lcdGoto lcdGoto `(v  1 e 0 0 ]
+"71
+[v _lcdPutstr lcdPutstr `(v  1 e 0 0 ]
+"76
+[v _lcdNumber lcdNumber `(v  1 e 0 0 ]
+"38 E:\Google Drive\PIC\Project\MazeSolvingRobot.X\main.c
+[v _main main `(v  1 e 0 0 ]
+"341
+[v _picInit picInit `(v  1 e 0 0 ]
+"363
+[v _beep beep `(v  1 e 0 0 ]
+"375
+[v _motor motor `(v  1 e 0 0 ]
+"12 E:\Google Drive\PIC\Project\MazeSolvingRobot.X\pwm.h
+[v _setPwmRC1 setPwmRC1 `(v  1 e 0 0 ]
+"23
+[v _setPwmRC2 setPwmRC2 `(v  1 e 0 0 ]
+"19 E:\Google Drive\PIC\Project\MazeSolvingRobot.X\uart.h
+[v _uartInit uartInit `(v  1 e 0 0 ]
+"39
+[v _uartTransmit uartTransmit `(v  1 e 0 0 ]
+"45
+[v _uartPutstr uartPutstr `(v  1 e 0 0 ]
+"50
+[v _uartReceive uartReceive `(uc  1 e 1 0 ]
+"61
+[v _uartNumber uartNumber `(v  1 e 0 0 ]
+"158 D:\Program Files\Microchip\xc8\v1.31\include\pic16f887.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"219
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"280
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"341
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"402
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+"750
+[v _T2CON T2CON `VEuc  1 e 1 @18 ]
+"901
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+"913
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @23 ]
+"1103
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1109
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1121
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @27 ]
+"1133
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @29 ]
+"1377
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1438
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1499
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1560
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1621
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"1991
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"2584
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"3176
+[v _EEDATA EEDATA `VEuc  1 e 1 @268 ]
+"3187
+[v _EEADR EEADR `VEuc  1 e 1 @269 ]
+"3312
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3373
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3422
+[v _EECON1 EECON1 `VEuc  1 e 1 @396 ]
+"3466
+[v _EECON2 EECON2 `VEuc  1 e 1 @397 ]
+"3570
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"3618
+[v _CARRY CARRY `VEb  1 e 0 @24 ]
+"3664
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"3704
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"3744
+[v _IRCF0 IRCF0 `VEb  1 e 0 @1148 ]
+"3746
+[v _IRCF1 IRCF1 `VEb  1 e 0 @1149 ]
+"3748
+[v _IRCF2 IRCF2 `VEb  1 e 0 @1150 ]
+"3774
+[v _OERR OERR `VEb  1 e 0 @193 ]
+"3832
+[v _RA3 RA3 `VEb  1 e 0 @43 ]
+"3834
+[v _RA4 RA4 `VEb  1 e 0 @44 ]
+"3836
+[v _RA5 RA5 `VEb  1 e 0 @45 ]
+"3842
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"3844
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"3846
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"3848
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"3850
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"3852
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"3854
+[v _RB6 RB6 `VEb  1 e 0 @54 ]
+"3856
+[v _RB7 RB7 `VEb  1 e 0 @55 ]
+"3890
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"3892
+[v _RD RD `VEb  1 e 0 @3168 ]
+"3910
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"3912
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"3914
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"3926
+[v _RX9 RX9 `VEb  1 e 0 @198 ]
+"3946
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"4126
+[v _TX9 TX9 `VEb  1 e 0 @1222 ]
+"4132
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"4136
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"4192
+[v _WR WR `VEb  1 e 0 @3169 ]
+"4194
+[v _WREN WREN `VEb  1 e 0 @3170 ]
+"38 E:\Google Drive\PIC\Project\MazeSolvingRobot.X\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"41
+[v main@path path `[20]uc  1 a 20 20 ]
+"43
+[v main@buzzerCount buzzerCount `ul  1 a 4 47 ]
+"42
+[v main@string string `[3]uc  1 a 3 44 ]
+"40
+[v main@i i `ui  1 a 2 40 ]
+"41
+[v main@pathLength pathLength `uc  1 a 1 52 ]
+[v main@dir dir `uc  1 a 1 51 ]
+"42
+[v main@simplified simplified `uc  1 a 1 43 ]
+"41
+[v main@pathTotal pathTotal `uc  1 a 1 42 ]
+"338
+} 0
+"341
+[v _picInit picInit `(v  1 e 0 0 ]
+{
+"361
+} 0
+"375
+[v _motor motor `(v  1 e 0 0 ]
+{
+[v motor@speedLM speedLM `c  1 a 1 wreg ]
+"377
+[v motor@speed speed `uc  1 a 1 15 ]
+[v motor@maxSpeed maxSpeed `uc  1 a 1 13 ]
+"375
+[v motor@speedLM speedLM `c  1 a 1 wreg ]
+[v motor@speedRM speedRM `c  1 p 1 10 ]
+"377
+[v motor@speedLM speedLM `c  1 a 1 14 ]
+"420
+} 0
+"23 E:\Google Drive\PIC\Project\MazeSolvingRobot.X\pwm.h
+[v _setPwmRC2 setPwmRC2 `(v  1 e 0 0 ]
+{
+"25
+[v setPwmRC2@a a `i  1 a 2 12 ]
+"23
+[v setPwmRC2@freq freq `i  1 p 2 6 ]
+[v setPwmRC2@duty duty `i  1 p 2 8 ]
+"32
+} 0
+"12
+[v _setPwmRC1 setPwmRC1 `(v  1 e 0 0 ]
+{
+"14
+[v setPwmRC1@a a `i  1 a 2 12 ]
+"12
+[v setPwmRC1@freq freq `i  1 p 2 6 ]
+[v setPwmRC1@duty duty `i  1 p 2 8 ]
+"21
+} 0
+"3 D:\Program Files\Microchip\xc8\v1.31\sources\common\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"5
+[v ___wmul@product product `ui  1 a 2 4 ]
+"3
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"41
+} 0
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 6 ]
+[v ___awdiv@dividend dividend `i  1 p 2 8 ]
+"42
+} 0
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"11
+[v ___aldiv@quotient quotient `l  1 a 4 2 ]
+"12
+[v ___aldiv@sign sign `uc  1 a 1 1 ]
+[v ___aldiv@counter counter `uc  1 a 1 0 ]
+"6
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"42
+} 0
+"4 D:\Program Files\Microchip\xc8\v1.31\sources\common\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 2 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"8
+[v ___bmul@multiplier multiplier `uc  1 a 1 3 ]
+"16
+} 0
+"3 D:\Program Files\Microchip\xc8\v1.31\sources\common\memcmp.c
+[v _memcmp memcmp `(i  1 e 2 0 ]
+{
+[v memcmp@s1 s1 `*.24DCCv  1 a 1 wreg ]
+[v memcmp@s1 s1 `*.24DCCv  1 a 1 wreg ]
+[v memcmp@s2 s2 `*.4DCCv  1 p 1 0 ]
+[v memcmp@n n `ui  1 p 2 1 ]
+[v memcmp@s1 s1 `*.24DCCv  1 a 1 5 ]
+"12
+} 0
+"71 E:\Google Drive\PIC\Project\MazeSolvingRobot.X\lcd.h
+[v _lcdPutstr lcdPutstr `(v  1 e 0 0 ]
+{
+[v lcdPutstr@s s `*.24DCCuc  1 a 1 wreg ]
+[v lcdPutstr@s s `*.24DCCuc  1 a 1 wreg ]
+[v lcdPutstr@s s `*.24DCCuc  1 a 1 4 ]
+"74
+} 0
+"76
+[v _lcdNumber lcdNumber `(v  1 e 0 0 ]
+{
+"78
+[v lcdNumber@di di `[10]uc  1 a 10 3 ]
+[v lcdNumber@j j `uc  1 a 1 14 ]
+[v lcdNumber@i i `uc  1 a 1 13 ]
+"76
+[v lcdNumber@no no `ui  1 p 2 8 ]
+[v lcdNumber@base base `uc  1 p 1 10 ]
+[v lcdNumber@digit digit `uc  1 p 1 11 ]
+"94
+} 0
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"26
+} 0
+"6 D:\Program Files\Microchip\xc8\v1.31\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"31
+} 0
+"34 E:\Google Drive\PIC\Project\MazeSolvingRobot.X\lcd.h
+[v _lcdInit lcdInit `(v  1 e 0 0 ]
+{
+"46
+} 0
+"56
+[v _lcdGoto lcdGoto `(v  1 e 0 0 ]
+{
+[v lcdGoto@row row `uc  1 a 1 wreg ]
+[v lcdGoto@row row `uc  1 a 1 wreg ]
+[v lcdGoto@col col `uc  1 p 1 3 ]
+[v lcdGoto@row row `uc  1 a 1 5 ]
+"69
+} 0
+"48
+[v _lcdWrite lcdWrite `(v  1 e 0 0 ]
+{
+[v lcdWrite@rs rs `uc  1 a 1 wreg ]
+[v lcdWrite@rs rs `uc  1 a 1 wreg ]
+[v lcdWrite@data data `uc  1 p 1 0 ]
+"50
+[v lcdWrite@rs rs `uc  1 a 1 2 ]
+"54
+} 0
+"363 E:\Google Drive\PIC\Project\MazeSolvingRobot.X\main.c
+[v _beep beep `(v  1 e 0 0 ]
+{
+[v beep@times times `uc  1 a 1 wreg ]
+"365
+[v beep@loop loop `ui  1 a 2 5 ]
+"363
+[v beep@times times `uc  1 a 1 wreg ]
+[v beep@delayMs delayMs `ui  1 p 2 0 ]
+"366
+[v beep@times times `uc  1 a 1 4 ]
+"373
+} 0
